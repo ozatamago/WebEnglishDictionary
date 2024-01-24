@@ -1,0 +1,12 @@
+{% extends "dictionary/base.html" %}
+{% block content %}
+    <div class="container">
+        <h2>Quiz Done!</h2>
+        <p>Your score is {{ score }}</p>
+
+        <!-- 追加: Return to Select ボタン -->
+        <a href="{% url 'dictionary:select_test_range' %}?range={{ selected_range }}" class="btn btn-primary">
+            Return to Select
+        </a>
+    </div>
+{% endblock %}

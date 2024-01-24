@@ -1,0 +1,96 @@
+{% extends "dictionary/base.html" %}
+{% block content %}
+<!-- debug lines -->
+{% for start, end in range_38 %}
+    {% with range_str=start|stringformat:"s"|add:"-"|add:end|stringformat:"s" %}
+        {% if selected_range == range_str %}
+            <p>Matched: {{ start }} to {{ end }}</p>
+        {% endif %}
+    {% endwith %}
+{% endfor %}
+<!-- debug lines -->
+
+
+
+    <div class="container">
+        <h2>Select Test Range</h2>
+        <form action="{% url 'dictionary:select_test_range' %}" method="GET" id="rangeForm">
+            <div class="form-group">
+                <label for="rangeSelect">Select a range:</label>
+                <select class="form-control" id="rangeSelect" name="range" onchange="updateActionURL()">
+                    {% for start, end in range_38 %}
+                    <option value="{{ start }}-{{ end }}" {% if selected_range == start|stringformat:"s"|add:"-"|add:end|stringformat:"s" %}selected{% endif %}>
+                        {{ start }} to {{ end }}
+                    </option>
+                    {% endfor %}
+                </select>                                       
+            </div>
+            <button type="submit" class="btn btn-primary">Start Test</button>
+        </form>
+
+        <div style="width:50%; margin-top:50px;">
+            <canvas id="progressChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // この関数でフォームのaction属性を動的に更新します
+        function updateActionURL() {
+            const selectedRange = document.getElementById("rangeSelect").value;
+            console.log("Selected range:", selectedRange);  // このログを追加
+
+            const [start, end] = selectedRange.split("-");
+            const baseUrl = `/test/${start}/${end}/`;
+            document.getElementById("rangeForm").action = baseUrl;
+        }
+
+        // 既存の円グラフのコードはそのままにしておきます
+        let ctx = document.getElementById('progressChart').getContext('2d');
+        let progressRate = {{ progress_rate }};
+        let data = {
+            datasets: [{
+                data: [progressRate, 100 - progressRate],
+                backgroundColor: ["#4CAF50", "#FFC107"]
+            }],
+            labels: ['Remembered', 'Not Remembered']
+        };
+
+        let progressChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: data,
+            options: {
+                responsive: true,
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Progress Rate'
+                },
+                animation: {
+                    animateScale: true,
+                    animateRotate: true
+                },
+                plugins: {
+                    beforeDraw: function(chart) {
+                        var width = chart.chart.width,
+                            height = chart.chart.height,
+                            ctx = chart.chart.ctx;
+                        
+                        ctx.restore();
+                        var fontSize = (height / 114).toFixed(2);
+                        ctx.font = fontSize + "em sans-serif";
+                        ctx.textBaseline = "middle";
+
+                        var text = progressRate + "%",
+                            textX = Math.round((width - ctx.measureText(text).width) / 2),
+                            textY = height / 2;
+
+                        ctx.fillText(text, textX, textY);
+                        ctx.save();
+                    }
+                }
+            }
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "dictionary/serch_base.html" %}
+
+
+{% block main %}
+
+<!--ここに検索結果を表示する-->
+
+
+<div class="sitelink_area">
+    <br>
+    <br>
+    <div class="sitelink"><h1><a href= "{{ url }}" target="_blank">{{ serch_word }}</a></h1></div>
+    <!--truncatechars_htmlで指定文字数で切り詰めできる-->
+</div>
+
+
+{% for i in dif %}
+{% if i == "No result" %}
+<h3>{{ i }}</h3>
+
+{% elif i == "Part" %}
+<br>
+<br>
+<h3>{{ i }}</h3>
+
+{% elif i == "Definition" %}
+<h3>{{ i }}</h3>
+
+{% elif i == "Example" %}
+<h3>{{ i }}</h3>
+
+{% elif i == "Synonym" %}
+<h3>{{ i }}</h3>
+
+{% else %}
+<p>{{ i }}</p>
+{% endif %}
+
+{% endfor %}
+
+
+{% endblock %}

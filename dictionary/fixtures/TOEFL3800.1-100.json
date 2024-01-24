@@ -1,0 +1,621 @@
+[
+    {
+        "model": "dictionary.Word",
+        "pk": 1,
+        "fields": {
+            "word_name" : "provide"
+        }
+    },
+    {
+        "model": "dictionary.Word",
+        "pk": 2,
+        "fields": {
+            "word_name" : "merchant"
+        }
+    },
+    {
+        "model": "dictionary.Word",
+        "pk": 3,
+        "fields": {
+            "word_name" : "needle"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 4,
+        "fields": {
+            "word_name" : "fasten"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 5,
+        "fields": {
+            "word_name" : "mental"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 6,
+        "fields": {
+            "word_name" : "produce"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 7,
+        "fields": {
+            "word_name" : "progress"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 8,
+        "fields": {
+            "word_name" : "finished"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 9,
+        "fields": {
+            "word_name" : "oxygen"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 10,
+        "fields": {
+            "word_name" : "alive"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 11,
+        "fields": {
+            "word_name" : "own"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 12,
+        "fields": {
+            "word_name" : "recommend"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 13,
+        "fields": {
+            "word_name" : "diplomacy"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 14,
+        "fields": {
+            "word_name" : "rainfall"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 15,
+        "fields": {
+            "word_name" : "rise"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 16,
+        "fields": {
+            "word_name" : "admirable"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 17,
+        "fields": {
+            "word_name" : "structure"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 18,
+        "fields": {
+            "word_name" : "upstairs"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 19,
+        "fields": {
+            "word_name" : "observatory"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 20,
+        "fields": {
+            "word_name" : "herbivore"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 21,
+        "fields": {
+            "word_name" : "lava"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 22,
+        "fields": {
+            "word_name" : "territory"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 23,
+        "fields": {
+            "word_name" : "imagine"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 24,
+        "fields": {
+            "word_name" : "usage"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 25,
+        "fields": {
+            "word_name" : "adopt"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 26,
+        "fields": {
+            "word_name" : "investment"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 27,
+        "fields": {
+            "word_name" : "proposal"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 28,
+        "fields": {
+            "word_name" : "tool"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 29,
+        "fields": {
+            "word_name" : "vibration"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 30,
+        "fields": {
+            "word_name" : "previous"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 31,
+        "fields": {
+            "word_name" : "trearment"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 32,
+        "fields": {
+            "word_name" : "scissors"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 33,
+        "fields": {
+            "word_name" : "fireplace"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 34,
+        "fields": {
+            "word_name" : "folk"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 35,
+        "fields": {
+            "word_name" : "involve"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 36,
+        "fields": {
+            "word_name" : "poet"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 37,
+        "fields": {
+            "word_name" : "passenger"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 38,
+        "fields": {
+            "word_name" : "wage"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 39,
+        "fields": {
+            "word_name" : "ancestor"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 40,
+        "fields": {
+            "word_name" : "interrupt"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 41,
+        "fields": {
+            "word_name" : "bank"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 42,
+        "fields": {
+            "word_name" : "recover"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 43,
+        "fields": {
+            "word_name" : "carve"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 44,
+        "fields": {
+            "word_name" : "exclaim"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 45,
+        "fields": {
+            "word_name" : "herb"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 46,
+        "fields": {
+            "word_name" : "hesitate"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 47,
+        "fields": {
+            "word_name" : "X-ray"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 48,
+        "fields": {
+            "word_name" : "grass"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 49,
+        "fields": {
+            "word_name" : "undertake"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 50,
+        "fields": {
+            "word_name" : "recognize"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 51,
+        "fields": {
+            "word_name" : "accomplish"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 52,
+        "fields": {
+            "word_name" : "fond"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 53,
+        "fields": {
+            "word_name" : "tend"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 54,
+        "fields": {
+            "word_name" : "discussion"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 55,
+        "fields": {
+            "word_name" : "humid"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 56,
+        "fields": {
+            "word_name" : "island"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 57,
+        "fields": {
+            "word_name" : "permanent"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 58,
+        "fields": {
+            "word_name" : "scholar"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 59,
+        "fields": {
+            "word_name" : "later"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 60,
+        "fields": {
+            "word_name" : "fine"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 61,
+        "fields": {
+            "word_name" : "carbon"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 62,
+        "fields": {
+            "word_name" : "decision"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 63,
+        "fields": {
+            "word_name" : "broad"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 64,
+        "fields": {
+            "word_name" : "freeze"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 65,
+        "fields": {
+            "word_name" : "creative"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 66,
+        "fields": {
+            "word_name" : "furthermore"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 67,
+        "fields": {
+            "word_name" : "sufficient"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 68,
+        "fields": {
+            "word_name" : "affluent"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 69,
+        "fields": {
+            "word_name" : "increase"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 70,
+        "fields": {
+            "word_name" : "cheerfully"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 71,
+        "fields": {
+            "word_name" : "nearly"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 72,
+        "fields": {
+            "word_name" : "water"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 73,
+        "fields": {
+            "word_name" : "skill"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 74,
+        "fields": {
+            "word_name" : "illness"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 75,
+        "fields": {
+            "word_name" : "vote"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 76,
+        "fields": {
+            "word_name" : "saw"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 77,
+        "fields": {
+            "word_name" : "indeed"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 78,
+        "fields": {
+            "word_name" : "require"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 79,
+        "fields": {
+            "word_name" : "describe"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 80,
+        "fields": {
+            "word_name" : "parcel"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 81,
+        "fields": {
+            "word_name" : "apparent"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 82,
+        "fields": {
+            "word_name" : "official"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 83,
+        "fields": {
+            "word_name" : "navy"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 84,
+        "fields": {
+            "word_name" : "sign"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 85,
+        "fields": {
+            "word_name" : "odor"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 86,
+        "fields": {
+            "word_name" : "scent"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 87,
+        "fields": {
+            "word_name" : "suppose"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 88,
+        "fields": {
+            "word_name" : "brochure"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 89,
+        "fields": {
+            "word_name" : "calm"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 90,
+        "fields": {
+            "word_name" : "tuition"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 91,
+        "fields": {
+            "word_name" : "trial"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 92,
+        "fields": {
+            "word_name" : "countryside"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 93,
+        "fields": {
+            "word_name" : "clerk"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 94,
+        "fields": {
+            "word_name" : "independence"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 95,
+        "fields": {
+            "word_name" : "past"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 96,
+        "fields": {
+            "word_name" : "sculpture"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 97,
+        "fields": {
+            "word_name" : "habitat"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 98,
+        "fields": {
+            "word_name" : "provide"
+        }
+    },    {
+        "model": "dictionary.Word",
+        "pk": 99,
+        "fields": {
+            "word_name" : "provide"
+        }
+    },{
+        "model": "dictionary.Word",
+        "pk": 100,
+        "fields": {
+            "word_name" : "provide"
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]

@@ -1,0 +1,9 @@
+<!-- result.html -->
+{% extends "dictionary/base.html" %}
+{% block content %} 
+    <h1>Result</h1>
+    <p>Your Choice: {{ choices }}</p>
+    <p>Correct Answer: {{ correct_answer }}</p>
+    <h1>{{ message }}</h1>
+    <a href="{% url 'dictionary:example_test' start=request.session.start end=request.session.end %}">次の問題へ進む</a>
+{% endblock %}
