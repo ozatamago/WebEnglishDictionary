@@ -46,7 +46,7 @@
 
         // 既存の円グラフのコードはそのままにしておきます
         let ctx = document.getElementById('progressChart').getContext('2d');
-        let progressRate = {{ progress_rate }};
+        let progressRate = { progress_rate };
         let data = {
             datasets: [{
                 data: [progressRate, 100 - progressRate],
